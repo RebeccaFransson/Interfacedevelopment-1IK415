@@ -7,6 +7,30 @@
      <li><a href="presentation.html">Presentation</a> </li>
       <li><a href="kontakt.html">Kontakt</a> </li>
       
+      <br>
+      
+      <form name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+      <fieldset style="width: 450px" >
+      <legend>Formulär</legend>
+       
+      <!--Formuläret-->
+      Ärendetyp: <select name="Ärendetyp">
+  <option value="Fråga">Fråga</option>
+  <option value="Klagomål">Klagomål</option>
+ </select>
+ <br>
+ Rubrik: <input type="text" name="Rubrik"><br>
+ Ärende: <textarea rows="5" cols="30"> </textarea><br>
+</fieldset>
+
+<fieldset style="width: 450px" >
+      <legend>Information om dig</legend>
+<input type="checkbox" name="kontakt" value="Mail">Kontakta mig via mail:<br>
+<input type="checkbox" name="kontakt" value="Telefon">Kontakta mig via telefon:<br>
+<input type="submit" value="Submit">
+ </fieldset>
+</form>
+      
       
     </body>
     
