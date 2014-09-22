@@ -61,9 +61,12 @@ a:hover {
 }
 
 a:active {
-    color: #52A3CC;
+    color: #394747;
 }
 
+.active{
+     background-color: RGBA(255, 239, 206, 0.5 );
+}
 /*Här är min Content med text */
 #content{
     
