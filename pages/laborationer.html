@@ -2,139 +2,165 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Min sida</title>
+    <title>Laborationer</title>
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
     <body>
     
-    <h1>Min laborationsportal</h1>
+    <div id="header">
+        <p><img src="../Pictures/header.jpg" width="800" height="383" alt=""></p>
+    </div>
+    
+    <div id="meny">
         <ul>
             <li><a href="../index.html">Start</a> </li>  <!-- ../ gör att jag kommer ut till mappen ovan.-->
             <li><a href="laborationer.html">Laborationer</a> </li>
             <li><a href="presentation.html">Presentation</a> </li>
             <li><a href="kontakt.html">Kontakt</a> </li>
         </ul>
-      
-    <h2>Webbtekniskt introduktion</h2>
-        <ul>
-            <li><a href="#Laboration_1">Laboration 1</a> </li>
-            <li><a href="#Laboration_2">Laboration 2</a> </li>
-        </ul>
-        
-     <h2>Resultat</h2>
-     <table border="1"> <!--Tabell-->
-         <thead>
-            <tr>
-                <td>Laboration</td>
-                <td>Upgift</td>
-                <td>Status</td>
-                <td>Redovisad</td>
-              </tr>
-          </thead>
-          <tbody>
-            <tr>
-                <td rowspan="3">1</td>
-                <td>1</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-                <tr>
-                <td>3</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-
-            <tr>                        <!--Tabell för lab2-->
-                <td rowspan="6">2</td>
-                <td>1</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>?</td>
-                <td>2014-09-</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>                        <!--Tabell för lab2-->
-                <td colspan="4">Laborationsresultat gällande Rebecca Fransson</td>
-            </tr>
-        </tfoot>
-
-
+    </div>
     
-  
-  
-  
-  
-</table>
-      
-      <a name="Laboration_1"></a> <!---Gör en ankar länk till laboration 1-->
-      <h3>Laboration 1</h3>
-      <p>Uppgifter</p>
-      
-      <!-- Gör en numrerad lista på uppgifterna i lab1 -->
-      <ol>
-         <li>1.4.1 www.server.se/html/pages/bottom.
-           <dl>
-             <dt>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
-             <dd>Svar: http://www/html/pages/bottom.html</dd>
-             <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
-             <dd>Svar: pages/top.html</dd>
-             <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
-             <dd>Svar: ../../index.html</dd> <!-- ? -->
-             <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
-             <dd>Svar: http://www/index.html</dd>
-             <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
-             <dd>Svar bottom.html</dd>
-             <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html:</dt>
-             <dd>Svar html/pages/top.html</dd>
-           </dl>
-         </li>
-         
-         
-         
-         <li>Länkar och listor</li>
-         <li>Bilder: 
-             <p><a href="presentation.html#Bild_pa_mig">Bild på mig själv</a></p>
-             <p><a href="../Pictures/Logo.png">Logotypen</a> </p>
-             <p><a href="../index.html#blogg-SVG-bild">SVG-bild</a></p>
-         </li>
-         <li>Video 
-             <p><a href="../index.html#blogg-video">Klicka här</a></p>
-         </li>
-         <li>1.4.5</li>
-         <li>1.4.6</li>
-     </ol>
-     
-     <a name="Laboration_2"></a>
-     <h3>Laboration 2</h3>
-     
+    <div class="left pic">
+     hej
+    </div>
+    <div class="right pic">
+     hej
+    </div>
+        
+    <div id="content">
+    
+        <h2>Laborationsportal</h2>
+        
+        <div class="inlagg">
+        <h3>Webbtekniskt introduktion</h3>
+            <ul>
+                <li><a href="#Laboration_1">Laboration 1</a> </li>
+                <li><a href="#Laboration_2">Laboration 2</a> </li>
+            </ul>
+            </div>
+            
+            
+         <div class="inlagg">
+         <h3>Resultat</h3>
+         <table border="1"> <!--Tabell-->
+             <thead>
+                <tr>
+                    <td>Laboration</td>
+                    <td>Upgift</td>
+                    <td>Status</td>
+                    <td>Redovisad</td>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td>1</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+    
+                <tr>                        <!--Tabell för lab2-->
+                    <td rowspan="6">2</td>
+                    <td>1</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>?</td>
+                    <td>2014-09-</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>                        <!--Tabell för lab2-->
+                    <td colspan="4">Laborationsresultat gällande Rebecca Fransson</td>
+                </tr>
+            </tfoot>
+             </table>
+             </div>
+                  
+    
+                  <div class="inlagg">
+                  <a name="Laboration_1"></a> <!---Gör en ankar länk till laboration 1-->
+                  <h3>Laboration 1</h3>
+                  <p>Uppgifter</p>
+                  
+                  <!-- Gör en numrerad lista på uppgifterna i lab1 -->
+                  <ol>
+                     <li>1.4.1 www.server.se/html/pages/bottom.
+                       <dl>
+                         <dt>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html?</dt>
+                             <dd>Svar: http://www.server.com/html/pages/bottom.html</dd>
+                         <dt>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html?</dt>
+                             <dd>Svar: pages/top.html</dd>
+                         <dt>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html?</dt>
+                             <dd>Svar: ../../index.html</dd> <!-- ? -->
+                         <dt>1.4.4. Vilken är den absoluta sökvägen till filen index.html?</dt>
+                             <dd>Svar: http://www.server.com/index.html</dd>
+                         <dt>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html?</dt>
+                             <dd>Svar bottom.html</dd>
+                         <dt>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html:</dt>
+                             <dd>Svar html/pages/top.html</dd>
+                       </dl>
+                     </li>
+                </div>
+                     
+                     
+                <div class="inlagg">
+                     <li>Länkar och listor</li>
+                     <li>Bilder: 
+                         <p><a href="presentation.html#Bild_pa_mig">Bild på mig själv</a></p>
+                         <p><a href="../Pictures/Logo.png">Logotypen</a> </p>
+                         <p><a href="../index.html#blogg-SVG-bild">SVG-bild</a></p>
+                     </li>
+                     <li>Video 
+                         <p><a href="../index.html#blogg-video">Klicka här</a></p>
+                     </li>
+                     <li>1.4.5</li>
+                     <li>1.4.6</li>
+                 </ol>
+                 </div>
+                 
+                <div class="inlagg">
+                 <a name="Laboration_2"></a>
+                 <h3>Laboration 2</h3></div>
+                 
+    </div>
+        
+    <div id="footer">
+            Ansvarig för materialet på denna sida: Rebecca Fransson
+    </div>
+    
     </body>
     
      </html>

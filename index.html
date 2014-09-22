@@ -2,43 +2,99 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Min sida</title>
+    <title>Startsida</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
     <body>
     
-    <h1>Beccis Blogg</h1>
-    <p>
-        <img src="Pictures/Logo.png" width="536" height="149" alt="">
-    </p>
+    <div id="header">
+        <p><img src="Pictures/header.jpg" width="800" height="383" alt=""></p>
+    </div>
     
-        <ul>
-            <li><a href="../index.html">Start</a> </li>  <!-- ../ gör att jag kommer ut till mappen ovan.-->
-            <li><a href="pages/laborationer.html">Laborationer</a> </li>
-            <li><a href="pages/presentation.html">Presentation</a> </li>
-            <li><a href="pages/kontakt.html">Kontakt</a> </li>
-        </ul>
+    <div id="meny">
+            <ul>
+                <li><a href="../index.html">Start</a> </li>  <!-- ../ gör att jag kommer ut till mappen ovan.-->
+                <li><a href="pages/laborationer.html">Laborationer</a> </li>
+                <li><a href="pages/presentation.html">Presentation</a> </li>
+                <li><a href="pages/kontakt.html">Kontakt</a> </li>
+            </ul>
+    </div>
     
-    <h2>Kursblogg</h2>
-        <h3>Hejsan Johan</h3>
-            <p>Detta är mitt första linlägg på min lilla kursblogg. 
-                Här kommer jag skriva några rader om de laborationer jag gör och 
-                publicera de material jag gör.</p>
-                    <p> Skrivet av Rebecca 2014-09-08</p>
-    
-        <h3>SVG-bild</h3>
-            <a id="blogg-SVG-bild"></a>
-            <p>Här är min SVG-bild. <img src="Pictures/Svg-bild.svg" width="150" height="150" alt=""></p>
-                <p> Skrivet av Rebecca 2014-09-12</p>
-            
-    
-    
-    
-        <h3>Här är min video-tagg</h3>
-            <a name="blogg-video"></a>
-            <p><video src="Videos/tuder.mov" controls> <!--Får inte igång videon -->
-                </video></p>
-                <p> Skrivet av Rebecca 2014-09-13</p>
-            
-    <p>Ansvarig för materialet på denna sida: Rebecca Fransson</p>
-    </body>
-</html> 
+    <div class="left pic">
+     hejh
+    </div>
+    <div class="right pic">
+     hej
+    </div>
+        
+    <div id="content">
+       <div class="inlagg"> <h2>Kursblogg</h2>
+            <h3><img src="Pictures/blogg.gif" width="20" height="20" alt="">
+            Hejsan Johan</h3>
+                <p>Detta är mitt första linlägg på min lilla kursblogg. 
+                    Här kommer jag skriva några rader om de laborationer jag gör och 
+                    publicera de material jag gör.</p>
+                        <p class="signatur"> Skrivet av Rebecca 2014-09-08</p>
+                            
+                        </div>
+        
+            <div class="inlagg">
+            <h3><img src="Pictures/blogg.gif" width="20" height="20" alt="">
+            SVG-bild</h3>
+                <a id="blogg-SVG-bild"></a>
+                <p>Här är min SVG-bild. <img  src="Pictures/Svg-bild.svg" width="150" height="150" alt=""></p>
+                    <p class="signatur"> Skrivet av Rebecca 2014-09-12</p>
+                        
+                    </div>
+                
+        
+        
+        
+            <div class="inlagg">
+            <h3><img src="Pictures/blogg.gif" width="20" height="20" alt="">
+            Här är min video-tagg</h3>
+                <a name="blogg-video"></a>
+                <video  src="Videos/tuder.mov" controls></video>
+                    <p class="signatur"> Skrivet av Rebecca 2014-09-13</p>
+                        
+                    </div>
+                    
+            <div class="inlagg">
+            <h3><img src="Pictures/blogg.gif" width="20" height="20" alt="">
+            Snart klar med laboration 2!</h3>
+                
+                <img class="media" src="Pictures/Jag.jpg" width="100" height="150" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Donec sed rutrum elit. Maecenas convallis at nulla vitae pellentesque. 
+                Morbi et risus leo. Aliquam congue rutrum posuere. Proin sem sem, 
+                lobortis quis convallis luctus, aliquet in mauris. Praesent odio erat, 
+                faucibus in malesuada scelerisque, pharetra eu dolor. Nam euismod 
+                tellus libero, sed luctus libero ultrices nec. Nulla lobortis mauris 
+                non accumsan egestas. Vestibulum risus neque, malesuada ut posuere 
+                eget, gravida hendrerit ex. Pellentesque suscipit lacus a ante ullamcorper 
+                maximus. Cras vel eros eu purus lobortis egestas scelerisque eu eros. 
+                Etiam pretium sit amet est id dapibus. Phasellus vehicula ipsum ut gravida 
+                ullamcorper.
+                </p>
+                <p>Mauris maximus massa et placerat tempor. Nunc quis augue ac est 
+                mattis feugiat vel a tellus. Sed vel arcu malesuada, hendrerit nisl 
+                sed, vehicula nisi. Integer eget erat sed velit posuere semper. Duis 
+                suscipit augue ut ante elementum dictum ac in mauris. In venenatis
+                convallis purus, eu luctus libero consectetur vitae. Donec consequat elit 
+                et tincidunt porta. Cras tristique, nulla sed convallis consectetur, lacus
+                justo porta tellus, congue laoreet augue lectus eget augue. Donec tincidunt,
+                dolor vel scelerisque aliquam, sem massa posuere nunc, ut laoreet odio risus 
+                et ipsum. Donec quis condimentum metus. Morbi cursus sem viverra urna 
+                consectetur fermentum. Duis consequat fringilla tincidunt.
+                </p>
+                    <p class="signatur"> Skrivet av Rebecca 2014-09-13</p>
+                        
+                    </div>
+                
+    </div>
+    <div id="footer">
+            Ansvarig för materialet på denna sida: Rebecca Fransson
+    </div>
+        
+        </body>
+    </html> 
