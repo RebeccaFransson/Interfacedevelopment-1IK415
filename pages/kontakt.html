@@ -31,28 +31,42 @@
         
    <div id="content">
    <h2>Kontakta mig</h2>
+   <div class="form">
        <form name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
          <fieldset style="width: 300px" >
           <legend>Formulär</legend>
           
+          
          <!--Formuläret-->
-         Ärendetyp: <select name="Ärendetyp">
+        <div class="form">
+           Ärendetyp: <select name="Ärendetyp">
           <option value="Fråga">Fråga</option>
           <option value="Klagomål">Klagomål</option>
          </select>
+         </div>
     
-         Rubrik: <input type="text" name="Rubrik"><br>
+         <div class="form">
+            Rubrik: <input type="text" name="Rubrik">
+            </div>
+            
+         <div class="form">
          Ärende: <textarea rows="5" cols="30"> </textarea>
         </fieldset>
          
-        <fieldset style="width: 300px" >
-         <legend>Information om dig</legend>
-          <input type="checkbox" name="kontakt" value="Mail">Kontakta mig via mail:
-          <input type="checkbox" name="kontakt" value="Telefon">Kontakta mig via telefon:
-          <input type="submit" value="Submit">
-         </fieldset>
-       
+        </div>
+         
+         <div class="form">
+         <fieldset style="width: 300px" >
+          <legend>Information om dig</legend>
+          
+           <input type="checkbox" name="kontakt" value="Mail">Kontakta mig via mail:
+           <input type="checkbox" name="kontakt" value="Telefon">Kontakta mig via telefon:
+           <input type="submit" value="Submit">
+          </fieldset>
+          </div>
+        
         </form>
+   </div>
    </div>
    
    <div id="footer">
