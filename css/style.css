@@ -9,14 +9,12 @@ body {
 #header {
     
     background-color: #CCFFFF;
-    height: 383px;
+    height: auto;
     
 }
 
 #header img{
     float:left;
-    height:383px;
-    width:800px;
 }
 
 /*Här är min meny och länkarna */
@@ -25,26 +23,24 @@ body {
     background-color: RGBA(143, 178, 178, 0.5 ); 
     float: left;
     width: 800px;
-    height:50px;
-    margin-bottom:20px;
+    height:52px;
     position:relative;
-    bottom:50px;
-    
+    bottom:52px;
 }
 
 
 #meny li {
     margin-left:55px;
-    margin-top:-2px;
     list-style: none;
     float:left;
     
    
 }
 #meny a {
-       padding:14px; 
-       text-decoration:none;
-       font-size: 20px;
+    padding:3px; 
+    text-decoration:none;
+    font-size: 20px;
+    padding-left:24px;
     
 }
 a:link {
@@ -56,24 +52,25 @@ a:visited {
 }
 
 a:hover {
-    color: #394747;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     background-color: RGBA(255, 239, 206, 0.5 ); 
 
 }
 
-a:active {
-    color: #394747;
+.active {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: RGBA(255, 239, 206, 0.5 ); 
 }
 
-.active{
-     background-color: RGBA(255, 239, 206, 0.5 );
-}
 /*Här är min Content med text */
 #content{
     
     background-color:#FFEFCE;
-    width: 460px;
-    margin-left:150px;
+    width: 800px;
     padding:20px;
     height:auto;
     
@@ -87,8 +84,10 @@ a:active {
 #content h3 {
     color: #52A3CC;
     font-size:20px;
-    margin-left:20px;
-    border-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid #8FB2B2;
+    
 }
 
 table {
@@ -97,7 +96,9 @@ table {
 
 .bildpamig{
     float:left;
+    margin-top:60px;
     margin-right:10px;
+    
 }
 
 .media{
@@ -114,25 +115,31 @@ img p #content {
 
 .signatur{
     float: right;
+    font-style:oblique;
 }
 
 
 .pic{
-    Background-color: #8FB2B2;
-    width: 140px;
-    height:150px;
-    margin-top:20px;
-    
+    width: 118px;
+    height:110px;
+    margin-top:-40px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
     padding: 5px;
 }
 .right{
+    max-width:70%;
+    Background-image: url('Pictures/danbo1.jpg');
+    display:block;
+    background-repeat:no-repeat;
     float:right;
 }
 
 .left{
+    Background-image: url('Pictures/danbo2.jpg');
+    display:block;
+    background-repeat:no-repeat;
     float:left;
 }
 
@@ -140,7 +147,7 @@ img p #content {
     
     Background-color: #E6D7B9;
     height:auto;
-    width:520px;
+    width:800px;
     margin: 20px auto;
     text-align:center;
     -webkit-border-radius: 10px;
@@ -153,15 +160,78 @@ img p #content {
 /* Här kommer formulärets Css*/
 .form {
     text-align:left;
-    width: 300px;
+    width: 50%;
     margin:auto;
 }
+
 #content legend {
     font-size: 20px;
 }
 
+.meny-start{
+    height:20px;
+    display:block;
+    background-image: url('Pictures/sprite.png');
+    background-repeat:no-repeat;
+    background-origin:content-box;
+    
+}
+#start{
+    background-position: 0 -48px;
+    
+    
+}
+#start:hover{
+    background-position: 0 0;
+}
 
 
+
+.meny-lab{
+    height:20px;
+    display:block;
+    background-image: url('Pictures/sprite.png');
+    background-repeat:no-repeat;
+    background-origin:content-box;
+}
+
+#lab{
+    background-position: 0 -144px;
+}
+#lab:hover{
+    background-position: 0 -96px;
+}
+
+
+.meny-pres{
+    height:20px;
+    display:block;
+    background-image: url('Pictures/sprite.png');
+    float:left;
+    background-repeat:no-repeat;
+    background-origin:content-box;
+}
+#pres{
+    background-position: 0 -240px;
+}
+#pres:hover{
+    background-position: 0 -192px;
+}
+
+.meny-kont{
+    height:20px;
+    display:block;
+    background-image: url('Pictures/sprite.png');
+    float:left;
+    background-repeat:no-repeat;
+    background-origin:content-box;
+}
+#kont{
+    background-position: 0 -336px;
+}
+#kont:hover{
+    background-position: 0 -288px;
+}
 
 /*Mina bakgrundsfärger:
 Header:#CCFFFF
@@ -177,4 +247,22 @@ Footer:#E6D7B9
     .pic{
         display:none;
     }
+    #header {
+        display:none;
+    }
+    #content {
+        width:100%;
+    }
+    body {
+        float:left;
+    }
+        
+    #footer{
+        display:none;
+    }
+    a:after{
+        content: " ["attr(href) "]";
+    }
 }
+
+

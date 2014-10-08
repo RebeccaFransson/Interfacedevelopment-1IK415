@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
  <head>
-     <meta charset="utf-8"/>
-     <title>Kontakt</title>
+     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
      <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width:800px)" type="text/css" href="../css/min-style.css" />
  </head>
     <body>
    
    <div id="header">
-        <p><img src="../Pictures/header.jpg" width="800" height="383" alt=""></p>
+        <p><img src="../Pictures/header.jpg" width="800" alt=""></p>
         
    </div>
    
    <div id="meny">
-     <ul>
-      <li><a href="../index.html">Start</a> </li>  <!-- ../ gör att jag kommer ut till mappen ovan.-->
-      <li><a href="laborationer.html">Laborationer</a> </li>
-      <li><a href="presentation.html">Presentation</a> </li>
-      <li><a class="active" href="kontakt.html">Kontakt</a> </li>
+     <ul id="lista">
+                <li id="start" class="meny-start">  <a href="../index.html">Start</a> </li>  <!-- ../ gör att jag kommer ut till mappen ovan.-->
+                <li id="lab" class="meny-lab">      <a href="laborationer.html">Laborationer</a> </li>
+                <li id="pres" class="meny-pres" >   <a href="presentation.html">Presentation</a> </li>
+                <li id="kont" class="meny-kont">    <a class="active" href="kontakt.html">Kontakt</a> </li>
      </ul>
    </div>
    
@@ -33,7 +34,7 @@
    <h2>Kontakta mig</h2>
    <div class="form">
        <form name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-         <fieldset style="width: 300px" >
+         <fieldset style="width: 90%" >
           <legend>Formulär</legend>
           
           
@@ -43,25 +44,19 @@
           <option value="Fråga">Fråga</option>
           <option value="Klagomål">Klagomål</option>
          </select>
-         </div>
-    
-         <div class="form">
-            Rubrik: <input type="text" name="Rubrik">
-            </div>
-            
-         <div class="form">
-         Ärende: <textarea rows="5" cols="30"> </textarea>
+         Rubrik: <input type="text" name="Rubrik">
+         Ärende: <textarea rows="4" cols="23"> </textarea>
         </fieldset>
          
         </div>
          
          <div class="form">
-         <fieldset style="width: 300px" >
+         <fieldset style="width: 90%" >
           <legend>Information om dig</legend>
           
            <input type="checkbox" name="kontakt" value="Mail">Kontakta mig via mail:
            <input type="checkbox" name="kontakt" value="Telefon">Kontakta mig via telefon:
-           <input type="submit" value="Submit">
+           <input type="submit" value="Skicka">
           </fieldset>
           </div>
         

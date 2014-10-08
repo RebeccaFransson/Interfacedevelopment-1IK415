@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Presentation</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width:800px)" type="text/css" href="../css/min-style.css" />
 </head>
     <body>
         
     <div id="header">
-        <p><img src="../Pictures/header.jpg" width="800" height="383" alt=""></p>
+        <p><img src="../Pictures/header.jpg" width="800" alt=""></p>
     </div>
         
     <div id="meny">
-            <ul>
-                <li><a href="../index.html">Start</a> </li>  <!-- ../ gör att jag kommer ut till mappen ovan.-->
-                <li><a href="laborationer.html">Laborationer</a> </li>
-                <li><a class="active" href="presentation.html">Presentation</a> </li>
-                <li><a href="kontakt.html">Kontakt</a> </li>
+            <ul id="lista">
+                <li id="start" class="meny-start">  <a href="../pages/index.html">Start</a> </li>  <!-- ../ gör att jag kommer ut till mappen ovan.-->
+                <li id="lab" class="meny-lab">      <a href="laborationer.html">Laborationer</a> </li>
+                <li id="pres" class="meny-pres" >   <a  class="active" href="presentation.html">Presentation</a> </li>
+                <li id="kont" class="meny-kont">    <a href="kontakt.html">Kontakt</a> </li>
             </ul>
     </div>
     

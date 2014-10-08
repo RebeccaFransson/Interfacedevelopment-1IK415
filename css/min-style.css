@@ -1,0 +1,54 @@
+    body{
+        max-width:100%;
+         
+    }
+    #header{
+        max-width:100%;
+    }
+    
+    img, video {
+        max-width:100%;
+    }
+    #lista{
+        padding:0;
+    }
+    
+    #meny{
+        max-width:100%;
+        height: auto;
+        position:relative;
+        bottom:52px;
+    }
+    
+    #meny li {
+        margin-left:55px;
+        height: auto;
+        margin-bottom:14px;
+    }
+    #meny a {
+    font-size: 20px;
+    margin-bottom:2px;
+    }
+    
+    #content{
+        padding-top:150px;
+        max-width:100%;
+        margin-left:0;
+        width: auto;
+    }
+    
+    #content h2 {
+    margin-top:0;
+    }
+    
+    #content h3 {
+    
+    font-size:18px;
+    }
+
+    .form {
+    }
+    
+    #footer{
+        max-width:90%;
+    }
