@@ -3,8 +3,10 @@
  <head>
      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt</title>
-     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" media="screen and (max-width:800px)" type="text/css" href="../css/min-style.css" />
+    <link rel="shortcut icon" href="../Pictures/Logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../Pictures/Logo.png" />
  </head>
     <body>
    
@@ -23,10 +25,10 @@
    </div>
    
    <div class="left pic">
-     hej
+     
     </div>
     <div class="right pic">
-     hej
+     
     </div>
         
         
@@ -40,12 +42,13 @@
           
          <!--Formuläret-->
         <div class="form">
-           Ärendetyp: <select name="Ärendetyp">
+           <h1>Ärendetyp:</h1> <select name="Ärendetyp">
           <option value="Fråga">Fråga</option>
           <option value="Klagomål">Klagomål</option>
          </select>
-         Rubrik: <input type="text" name="Rubrik">
-         Ärende: <textarea rows="4" cols="23"> </textarea>
+         <h1>Rubrik:</h1> <input type="tel" name="Rubrik">
+         <h1>Telefonnr:</h1> <input type="tel" name="telefonnr">
+         <h1>Ärende:</h1> <textarea rows="4" cols="23"> </textarea>
         </fieldset>
          
         </div>
@@ -54,8 +57,8 @@
          <fieldset style="width: 90%" >
           <legend>Information om dig</legend>
           
-           <input type="checkbox" name="kontakt" value="Mail">Kontakta mig via mail:
-           <input type="checkbox" name="kontakt" value="Telefon">Kontakta mig via telefon:
+           <input type="checkbox" name="kontakt" value="Mail"><h1>Kontakta mig via mail:</h1>
+           <input type="checkbox" name="kontakt" value="Telefon"><h1>Kontakta mig via telefon:</h1>
            <input type="submit" value="Skicka">
           </fieldset>
           </div>

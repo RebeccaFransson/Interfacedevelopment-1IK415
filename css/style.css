@@ -70,7 +70,7 @@ a:hover {
 #content{
     
     background-color:#FFEFCE;
-    width: 800px;
+    width: 760px;
     padding:20px;
     height:auto;
     
@@ -129,7 +129,6 @@ img p #content {
     padding: 5px;
 }
 .right{
-    max-width:70%;
     Background-image: url('Pictures/danbo1.jpg');
     display:block;
     background-repeat:no-repeat;
@@ -159,10 +158,49 @@ img p #content {
 
 /* Här kommer formulärets Css*/
 .form {
-    text-align:left;
-    width: 50%;
-    margin:auto;
+    
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 90%;
+    padding: 30px 30px 20px 30px;
+    font: 18px Arial;
+    color: #666;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
+
+.form input{
+    color: #555;
+    width: 70%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    
+}
+.form select{
+    margin: 0px 0px 20px 0px;
+}
+.form h1 {
+    font: 18px Arial;
+    padding: 10px 0px 10px 20px;
+    display: block;
+    border-bottom: 1px solid #F5F5F5;
+    margin: -10px -30px 10px -30px;
+    color: #969696;
+}
+.form textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+
+    /*text-align:left;
+    width: 70%;
+    margin:auto;--*/
+
 
 #content legend {
     font-size: 20px;
